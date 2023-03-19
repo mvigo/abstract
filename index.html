@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abstract Art Generator</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    .art-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .artwork {
+      width: 100%;
+      max-width: 300px;
+      padding: 1rem;
+      text-align: center;
+    }
+    @media (min-width: 600px) {
+      .artwork {
+        width: 50%;
+      }
+    }
+    @media (min-width: 900px) {
+      .artwork {
+        width: 33.33%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abstract Art Generator</h1>
+  </header>
+  <main>
+    <section class="art-container">
+      <!-- Add your auto-generated abstract artwork here -->
+      <div class="artwork">
+        <img src="path/to/your/abstract-art-1.jpg" alt="Abstract Art 1">
+        <h2>Abstract Art 1</h2>
+      </div>
+      <div class="artwork">
+        <img src="path/to/your/abstract-art-2.jpg" alt="Abstract Art 2">
+        <h2>Abstract Art 2</h2>
+      </div>
+      <!-- Add more artwork elements as needed -->
+    </section>
+  </main>
+</body>
+</html>
